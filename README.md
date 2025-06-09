@@ -1,24 +1,24 @@
-# 🏥 SymptomAid - Professional AI Symptom Analysis
+#  SymptomAid - Professional AI Symptom Analysis
 
 **SymptomAid** is a sophisticated, educational AI-powered symptom analysis application built with Streamlit and powered by local LLM technology (Mistral via Ollama). This professional-grade tool provides comprehensive symptom analysis while maintaining strict educational boundaries and emphasizing the critical importance of professional medical consultation.
 
 ## ✨ Key Features
 
-- 🎨 **Professional UI/UX**: Clean, responsive design with medical-themed styling
-- 🧠 **Advanced AI Analysis**: Powered by Mistral LLM for comprehensive symptom evaluation
-- 📊 **Structured Output**: Organized analysis with causes, body systems, specialists, and warnings
-- 🛡️ **Safety-First Design**: Multiple disclaimers and safety warnings throughout
-- 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices
-- 🔒 **Privacy-Focused**: All processing done locally with Ollama
-- 📚 **Educational Focus**: Designed to inform and educate, not diagnose
+-  **Professional UI/UX**: Clean, responsive design with medical-themed styling
+- **Advanced AI Analysis**: Powered by Mistral LLM for comprehensive symptom evaluation
+- **Structured Output**: Organized analysis with causes, body systems, specialists, and warnings
+-  **Safety-First Design**: Multiple disclaimers and safety warnings throughout
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Privacy-Focused**: All processing done locally with Ollama
+-  **Educational Focus**: Designed to inform and educate, not diagnose
 
-## ⚠️ Critical Medical Disclaimer
+## Critical Medical Disclaimer
 
-**🛑 THIS APPLICATION IS FOR EDUCATIONAL PURPOSES ONLY**
+** THIS APPLICATION IS FOR EDUCATIONAL PURPOSES ONLY**
 
 SymptomAid does not provide medical advice, diagnosis, or treatment. It is designed as an educational tool to help users understand potential medical considerations. Always consult qualified healthcare professionals for medical concerns. In emergencies, contact emergency services immediately.
 
-## 🎯 Application Structure
+## Application Structure
 
 ### Core Components
 
@@ -29,14 +29,14 @@ SymptomAid does not provide medical advice, diagnosis, or treatment. It is desig
 
 ### Analysis Output Sections
 
-1. **🧾 Possible Medical Causes**: Three potential causes with probability assessments
-2. **🧠 Affected Body Systems**: Detailed system involvement analysis
-3. **👩‍⚕️ Recommended Medical Specialist**: Primary and alternative specialist recommendations
-4. **⚠️ Warning Signs to Monitor**: Symptoms requiring close observation
-5. **🚨 Emergency Care Triggers**: Critical symptoms requiring immediate attention
-6. **📋 Next Steps**: Actionable guidance for users
+1. **Possible Medical Causes**: Three potential causes with probability assessments
+2. ** Affected Body Systems**: Detailed system involvement analysis
+4. ** Recommended Medical Specialist**: Primary and alternative specialist recommendations
+5. ** Warning Signs to Monitor**: Symptoms requiring close observation
+6. ** Emergency Care Triggers**: Critical symptoms requiring immediate attention
+7. ** Next Steps**: Actionable guidance for users
 
-## 🧠 How the AI Analysis Works
+##  How the AI Analysis Works
 
 ### LLM Prompt Engineering
 
@@ -66,7 +66,7 @@ The AI follows a structured analysis framework:
 - **Multiple Disclaimers**: Prominent warnings throughout the interface
 - **Emergency Emphasis**: Clear guidance on when to seek immediate care
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before running the application, ensure you have:
 
@@ -74,7 +74,7 @@ Before running the application, ensure you have:
 2. **Ollama** installed and running
 3. **Mistral model** downloaded in Ollama
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 
@@ -149,7 +149,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🏃‍♂️ Running the Application
+##  Running the Application
 
 ### Quick Start
 
@@ -173,21 +173,21 @@ pip install -r requirements.txt
 
 If port 8501 is busy, Streamlit will automatically use the next available port (8502, 8503, etc.)
 
-## 💡 How to Use SymptomAid
+##  How to Use SymptomAid
 
 ### Step-by-Step Guide
 
-1. **📝 Enter Symptoms**:
+1. ** Enter Symptoms**:
    - Use the multi-line text area to describe your symptoms
    - Be specific about duration, severity, and associated factors
    - Example: "I've had a persistent headache for 3 days, along with sensitivity to light and nausea"
 
-2. **🔍 Analyze Symptoms**:
-   - Click the "🔍 Analyze Symptoms" button
+2. ** Analyze Symptoms**:
+   - Click the " Analyze Symptoms" button
    - Wait for the AI analysis (typically 10-30 seconds)
    - A loading spinner will indicate processing
 
-3. **📊 Review Comprehensive Results**:
+3. ** Review Comprehensive Results**:
    - **Possible Causes**: Three potential medical causes with probability assessments
    - **Body Systems**: Detailed analysis of affected body systems
    - **Specialist Recommendations**: Primary and alternative healthcare providers
@@ -195,7 +195,7 @@ If port 8501 is busy, Streamlit will automatically use the next available port (
    - **Emergency Triggers**: When to seek immediate medical attention
    - **Next Steps**: Actionable guidance for follow-up
 
-4. **🔄 Reset or Analyze Again**:
+4. ** Reset or Analyze Again**:
    - Use the "Reset" button to clear the form
    - Enter new symptoms for additional analysis
 
@@ -207,7 +207,7 @@ If port 8501 is busy, Streamlit will automatically use the next available port (
 - **Read Completely**: Review all sections of the analysis
 - **Follow Disclaimers**: Always consult healthcare professionals for medical decisions
 
-## 📊 Sample Output
+##  Sample Output
 
 **Input**: "I have been experiencing headaches, fatigue, and dizziness for the past 3 days"
 
@@ -232,7 +232,7 @@ If port 8501 is busy, Streamlit will automatically use the next available port (
 
 **DISCLAIMER: This is not medical advice. Always consult a licensed physician for proper diagnosis and treatment.**
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 Symptoaid/
@@ -242,7 +242,7 @@ Symptoaid/
 └── README.md             # This file
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 You can modify the following settings in `ollama_helper.py`:
 
@@ -263,13 +263,13 @@ You can modify the following settings in `ollama_helper.py`:
    ollama serve
    ```
 
-2. **🐌 Performance Issues**:
+2. ** Performance Issues**:
    - **RAM Requirements**: Ensure 8GB+ available RAM
    - **CPU Usage**: Close resource-intensive applications
    - **Model Size**: Mistral requires significant resources
    - **Network**: Ensure stable internet for initial model download
 
-3. **📦 Model Issues**:
+3. ** Model Issues**:
    ```bash
    # Verify installed models
    ollama list
@@ -291,7 +291,7 @@ You can modify the following settings in `ollama_helper.py`:
    streamlit run app.py --server.port 8502
    ```
 
-5. **🐍 Python Environment Issues**:
+5. ** Python Environment Issues**:
    ```bash
    # Recreate virtual environment
    deactivate
@@ -316,14 +316,14 @@ Run the helper module directly to test Ollama connection:
 python ollama_helper.py
 ```
 
-## 🔒 Security and Privacy
+##  Security and Privacy
 
 ### Privacy-First Design
-- **🏠 Local Processing**: All AI analysis happens locally on your machine
-- **🚫 No Data Collection**: SymptomAid does not collect, store, or transmit personal health information
-- **🔐 Privacy Protection**: Your symptom data never leaves your device
-- **👁️ Full Transparency**: Open source code for complete visibility
-- **🛡️ No Tracking**: No analytics, cookies, or user tracking
+- ** Local Processing**: All AI analysis happens locally on your machine
+- ** No Data Collection**: SymptomAid does not collect, store, or transmit personal health information
+- ** Privacy Protection**: Your symptom data never leaves your device
+- ** Full Transparency**: Open source code for complete visibility
+- ** No Tracking**: No analytics, cookies, or user tracking
 
 ### Security Features
 - **Input Validation**: Filters inappropriate or harmful content
@@ -331,7 +331,7 @@ python ollama_helper.py
 - **Local LLM**: No external API calls that could expose data
 - **Secure Dependencies**: Regularly updated and vetted packages
 
-## 🏥 Medical Safety
+##  Medical Safety
 
 ### Built-in Safety Mechanisms
 - **Multiple Disclaimers**: Prominent warnings throughout the application
@@ -345,7 +345,7 @@ python ollama_helper.py
 - **No Emergency Response**: Not suitable for urgent medical situations
 - **General Information**: Cannot account for individual medical history
 
-## 🚀 Performance Optimization
+##  Performance Optimization
 
 ### System Requirements
 - **Minimum**: 8GB RAM, 4-core CPU, 10GB free disk space
@@ -358,7 +358,7 @@ python ollama_helper.py
 - Consider upgrading hardware for faster response times
 - Monitor system resources during operation
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License** - see the LICENSE file for details.
 
@@ -370,9 +370,9 @@ This project is licensed under the **MIT License** - see the LICENSE file for de
 - ❌ No warranty provided
 - ❌ No liability assumed
 
-## ⚖️ Legal Notice
+##  Legal Notice
 
-**🚨 CRITICAL LEGAL DISCLAIMER 🚨**
+** CRITICAL LEGAL DISCLAIMER **
 
 **EDUCATIONAL PURPOSE ONLY**: This application is designed exclusively for educational and informational purposes. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment.
 
@@ -382,16 +382,16 @@ This project is licensed under the **MIT License** - see the LICENSE file for de
 
 **NO WARRANTY**: The developers provide this software "as is" without warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability and fitness for a particular purpose.
 
-## 🤝 Contributing
+##  Contributing
 
 ### How to Contribute
 1. **🍴 Fork the Repository**: Create your own copy
 2. **🌿 Create a Branch**: `git checkout -b feature/amazing-feature`
-3. **💻 Make Changes**: Implement your improvements
-4. **✅ Test Thoroughly**: Ensure everything works correctly
-5. **📝 Commit Changes**: `git commit -m 'Add amazing feature'`
-6. **🚀 Push to Branch**: `git push origin feature/amazing-feature`
-7. **🔄 Open Pull Request**: Submit your changes for review
+3. ** Make Changes**: Implement your improvements
+4. ** Test Thoroughly**: Ensure everything works correctly
+5. ** Commit Changes**: `git commit -m 'Add amazing feature'`
+6. ** Push to Branch**: `git push origin feature/amazing-feature`
+7. ** Open Pull Request**: Submit your changes for review
 
 ### Contribution Guidelines
 - Follow existing code style and conventions
@@ -401,20 +401,20 @@ This project is licensed under the **MIT License** - see the LICENSE file for de
 - Maintain educational focus and disclaimers
 
 ### Areas for Contribution
-- 🎨 UI/UX improvements
-- 🧠 Enhanced prompt engineering
-- 🔧 Performance optimizations
-- 📚 Documentation improvements
-- 🌐 Internationalization
-- ♿ Accessibility enhancements
+- UI/UX improvements
+- Enhanced prompt engineering
+- Performance optimizations
+- Documentation improvements
+- Internationalization
+- Enhancements
 
-## 📞 Support
+##  Support
 
 ### Getting Help
-- **📖 Documentation**: Check this README and other docs first
-- **🐛 Issues**: Open a GitHub issue for bugs or feature requests
-- **💬 Discussions**: Use GitHub Discussions for questions
-- **📧 Contact**: Reach out to maintainers for urgent matters
+- **Documentation**: Check this README and other docs first
+- **Issues**: Open a GitHub issue for bugs or feature requests
+- **Discussions**: Use GitHub Discussions for questions
+- **Contact**: Reach out to maintainers for urgent matters
 
 ### Reporting Issues
 When reporting issues, please include:
@@ -426,4 +426,4 @@ When reporting issues, please include:
 
 ---
 
-**Built with ❤️ using Streamlit and Ollama**
+**Built with  using Streamlit and Ollama**
