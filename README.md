@@ -1,6 +1,6 @@
 # Neural Symptom Comprehension and Structured Medical Insight Generation
 
-**SymptomAid** is a sophisticated, educational AI-powered symptom analysis application built with Streamlit and powered by local LLM technology (Mistral via Ollama). This professional-grade tool provides comprehensive symptom analysis while maintaining strict educational boundaries and emphasizing the critical importance of professional medical consultation.
+**Neural Symptom Comprehension and Structured Medical Insight Generation** is a sophisticated, educational AI-powered symptom analysis application built with Streamlit and powered by local LLM technology (Mistral via Ollama). This professional-grade tool provides comprehensive symptom analysis while maintaining strict educational boundaries and emphasizing the critical importance of professional medical consultation.
 
 ## ✨ Key Features
 
